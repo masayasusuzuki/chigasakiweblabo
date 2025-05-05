@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-200 mt-12 pt-8 text-center">
-          <p className="opacity-60">
+          <p className="opacity-60 font-sans">
             &copy; {new Date().getFullYear()} Creative Portfolio. All rights reserved.
           </p>
         </div>
