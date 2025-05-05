@@ -39,7 +39,18 @@ const nextConfig = {
       poll: 1000,
       aggregateTimeout: 300,
     };
+
+    // services-convergenceディレクトリを除外
+    config.externals = [...(config.externals || []), {
+      'services-convergence': 'services-convergence'
+    }];
+
     return config;
+  },
+  pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
+  // services-convergenceディレクトリを除外するパス設定
+  onDemandEntries: {
+    exclude: ['services-convergence/**/*'],
   },
 };
 
