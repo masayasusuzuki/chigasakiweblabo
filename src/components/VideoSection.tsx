@@ -4,7 +4,7 @@ import React from 'react';
 
 const VideoSection = () => {
   return (
-    <section className="py-16 bg-white relative overflow-hidden">
+    <section className="pt-16 pb-8 bg-white relative overflow-hidden">
       {/* カラフルな背景要素 */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-amber-100 rounded-full blur-3xl -z-10 animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-40 h-40 bg-stone-200 rounded-full blur-3xl -z-10 animate-pulse"></div>
@@ -28,7 +28,7 @@ const VideoSection = () => {
               </span>
             </h2>
             
-            <p className="text-base max-w-2xl mx-auto mb-8">
+            <p className="text-sm md:text-base max-w-2xl mx-auto mb-8 md:text-center text-justify md:text-left">
               写真だけでは伝わらない雰囲気や商品の魅力を、動画なら効果的に伝えることができます。
               お客様の心を動かす映像制作で、あなたのビジネスの価値を最大限に引き出します。
             </p>
@@ -56,7 +56,7 @@ const VideoSection = () => {
           </div>
           
           {/* シンプルなメッセージ部分 */}
-          <div className="flex justify-center opacity-0 animate-fadeIn" style={{animationDelay: '0.5s'}}>
+          <div className="flex justify-center opacity-0 animate-fadeIn hidden md:flex" style={{animationDelay: '0.5s'}}>
             <div className="bg-gradient-to-r from-amber-50 via-white to-stone-50 text-center px-8 py-5 rounded-2xl shadow-md border border-stone-100 max-w-3xl">
               <p className="text-base">
                 ホームページに動画を組み込むことで、お店の魅力をより効果的に伝えることができます。

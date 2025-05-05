@@ -96,35 +96,14 @@ const ContactSection = () => {
           <h2 className="text-4xl font-bold mb-4">
             <span className="gradient-text">Contact Me</span>
           </h2>
-          <p className="text-xl opacity-80 max-w-2xl mx-auto">
+          <p className="text-base md:text-xl opacity-80 max-w-2xl mx-auto text-justify md:text-center">
             ご相談・お見積りはすべて無料です。
             「こんなことできる？」といった軽いご質問でも、お気軽にご連絡ください。
           </p>
         </div>
         
         <div className="max-w-3xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white rounded-xl p-6 text-center hover:transform hover:scale-[1.02] transition-all duration-300 shadow-sm border border-gray-100">
-              <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-primary/20 flex items-center justify-center">
-                <svg 
-                  className="w-6 h-6" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24" 
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth="2" 
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  ></path>
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2">Email</h3>
-              <p className="text-accent">chigasakiwebcreate@gmail.com</p>
-            </div>
-            
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white rounded-xl p-6 text-center hover:transform hover:scale-[1.02] transition-all duration-300 shadow-sm border border-gray-100">
               <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-secondary/20 flex items-center justify-center">
                 <svg 

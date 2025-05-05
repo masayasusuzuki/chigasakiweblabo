@@ -16,7 +16,7 @@ const ServicesConvergence = () => {
             <div className="absolute -bottom-3 left-0 w-full h-1 bg-gradient-to-r from-amber-400 via-stone-400 to-orange-300 rounded-full"></div>
           </div>
           
-          <p className="text-base opacity-80 max-w-2xl mx-auto font-light mb-8">
+          <p className="text-base opacity-80 max-w-2xl mx-auto font-light mb-8 hidden md:block">
             Webサイト制作から動画制作、アプリ開発まで、デジタルコンテンツに関わる
             <span className="font-medium text-accent">様々なサービスを一括して</span>
             ご提供します。
@@ -81,9 +81,13 @@ const ServicesConvergence = () => {
                   className="h-36 w-auto"
                 />
               </div>
-              <h2 className="text-2xl tracking-tight mb-4 font-serif">まるっと、全部おまかせください</h2>
+              <h2 className="text-2xl tracking-tight mb-4 font-serif hidden md:block">まるっと、全部おまかせください</h2>
+              <h2 className="text-2xl tracking-tight mb-4 font-serif md:hidden">
+                まるっと、全部<br />
+                おまかせください
+              </h2>
               <div className="h-1 w-24 bg-gradient-to-r from-blue-500 via-purple-500 to-green-500 mx-auto mb-6"></div>
-              <p className="text-slate-700 text-lg font-serif leading-relaxed text-left text-justify">ホームページ制作、動画編集、LINE連携、予約システムなど、お店やビジネスに必要な「デジタルまわり」を、まるごと対応します。窓口が一つだから、やりとりがスムーズで、納期も無駄なく進みます。</p>
+              <p className="text-slate-700 text-lg font-serif leading-relaxed text-left text-justify hidden md:block">ホームページ制作、動画編集、LINE連携、予約システムなど、お店やビジネスに必要な「デジタルまわり」を、まるごと対応します。窓口が一つだから、やりとりがスムーズで、納期も無駄なく進みます。</p>
             </div>
           </div>
         </div>
@@ -117,7 +121,7 @@ function ServiceCard({
       </div>
       <div className="p-6">
         <h3 className="text-xl font-semibold text-slate-800 mb-2 text-center">{title}</h3>
-        <p className="text-slate-600 text-sm leading-relaxed text-justify">{description}</p>
+        <p className="text-slate-600 text-sm leading-relaxed text-justify hidden md:block">{description}</p>
       </div>
     </div>
   )

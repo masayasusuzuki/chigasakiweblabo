@@ -141,7 +141,7 @@ const SkillsSection = () => {
             <h2 className="text-4xl font-bold mb-4">
               <span className="gradient-text">料金プラン</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto font-serif">
+            <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-serif text-justify md:text-center">
               お客様のニーズや予算に合わせた柔軟なプランをご用意しています。<br />
               どのプランも高品質なサービスを提供いたします。
             </p>
@@ -187,7 +187,7 @@ const SkillsSection = () => {
           </div>
           
           <div className="text-center mt-16">
-            <p className="text-gray-500 max-w-2xl mx-auto font-serif text-sm">
+            <p className="text-xs md:text-sm text-gray-500 max-w-2xl mx-auto font-serif text-justify md:text-center">
               ※すべてのプランには、企画・デザイン・コーディング・公開設定が含まれます。
               サイトの規模や機能によって料金が変動する場合がございます。
               詳細はお問い合わせください。
