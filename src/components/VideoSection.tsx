@@ -21,7 +21,7 @@ const VideoSection = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium mb-5 relative inline-block">
               動画でお店の魅力を
               <span className="text-accent font-bold relative">
-                "見える化"
+                &ldquo;見える化&rdquo;
                 <svg className="absolute -bottom-1 left-0 w-full h-2.5 text-amber-300" viewBox="0 0 100 100" preserveAspectRatio="none">
                   <path d="M0,50 Q20,30 40,50 Q60,70 80,50 Q95,35 100,50" stroke="currentColor" strokeWidth="12" fill="none" />
                 </svg>

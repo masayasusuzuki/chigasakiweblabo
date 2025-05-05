@@ -26,7 +26,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-sm border-b border-secondary/10 py-3 shadow-sm transition-all duration-500"
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="/" onClick={(e) => {e.preventDefault(); window.location.href = '/'}} className="flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2">
           <Image 
             src="/images/logo.png" 
             alt="茅ヶ崎のホームページ屋さんロゴ" 
@@ -35,7 +35,7 @@ const Navbar = () => {
             className="w-10 h-10 object-contain"
           />
           <span className="text-lg sm:text-xl md:text-2xl font-sans font-medium tracking-wider">茅ヶ崎のホームページ屋さん</span>
-        </a>
+        </Link>
 
         <nav className="hidden md:flex items-center space-x-10">
           <a 

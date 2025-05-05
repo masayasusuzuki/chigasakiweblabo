@@ -4,7 +4,6 @@ import { useState, useRef } from 'react';
 
 const ContactSection = () => {
   const formRef = useRef<HTMLFormElement>(null);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
   
   const [formData, setFormData] = useState({
     name: '',

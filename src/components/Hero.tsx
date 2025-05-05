@@ -105,7 +105,7 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto text-center p-6 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-6 leading-tight tracking-normal">
             あなたのお店にちょうどいい<br />
-            <span className="text-accent">"まちのWeb屋さん"</span>です
+            <span className="text-accent">&ldquo;まちのWeb屋さん&rdquo;</span>です
           </h1>
           
           <div className="h-px w-16 bg-accent/30 mx-auto mb-6"></div>

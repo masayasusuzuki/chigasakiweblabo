@@ -3,7 +3,6 @@ const path = require('path');
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -41,11 +40,6 @@ const nextConfig = {
       aggregateTimeout: 300,
     };
     return config;
-  },
-  experimental: {
-    fontLoaders: [
-      { loader: '@next/font/google', options: { subsets: ['latin'] } },
-    ],
   },
 };
 

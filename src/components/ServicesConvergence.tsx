@@ -1,5 +1,6 @@
 import React from "react"
 import { ArrowDown } from "lucide-react"
+import Image from "next/image"
 
 const ServicesConvergence = () => {
   return (
@@ -72,9 +73,11 @@ const ServicesConvergence = () => {
           <div className="flex justify-center">
             <div className="bg-white text-slate-800 rounded-xl shadow-xl p-10 text-center w-full max-w-2xl transform transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
               <div className="flex justify-center mb-8">
-                <img 
+                <Image 
                   src="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/dd57a2bd-c834-46b0-b544-9d11b467a100/public" 
                   alt="All-in-One" 
+                  width={144}
+                  height={144}
                   className="h-36 w-auto"
                 />
               </div>
@@ -104,9 +107,11 @@ function ServiceCard({
       className="bg-white rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 hover:shadow-lg hover:scale-105 group"
     >
       <div className="h-48 overflow-hidden">
-        <img
+        <Image
           src={imageUrl}
           alt={title}
+          width={400}
+          height={192}
           className="w-full h-full object-cover"
         />
       </div>

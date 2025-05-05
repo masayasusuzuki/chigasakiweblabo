@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 
 const AboutSection = () => {
@@ -7,7 +8,7 @@ const AboutSection = () => {
         <div className="text-center mb-10">
           <span className="uppercase text-xs tracking-[0.2em] text-accent/80">About</span>
           <h2 className="text-3xl md:text-4xl font-light mt-2 mb-3">
-            "茅ヶ崎のホームページ屋さん"って？
+            &ldquo;茅ヶ崎のホームページ屋さん&rdquo;って？
           </h2>
           <div className="h-px w-16 bg-accent/30 mx-auto mb-4"></div>
         </div>
@@ -55,10 +56,12 @@ const AboutSection = () => {
             <div className="relative overflow-hidden">
               <div className="relative h-[400px] w-full overflow-hidden flex flex-col justify-center items-center rounded-2xl">
                 <div className="relative w-[300px] h-[300px] overflow-hidden">
-                  <img 
+                  <Image 
                     src="/images/icon.png" 
                     alt="茅ヶ崎のホームページ屋さん" 
                     className="w-full h-full object-contain"
+                    width={300}
+                    height={300}
                   />
                 </div>
                 <h3 className="text-xl md:text-2xl font-light mt-4">
