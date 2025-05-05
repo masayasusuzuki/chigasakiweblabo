@@ -53,13 +53,6 @@ const Navbar = () => {
             About
           </a>
           <a 
-            href="#skills" 
-            onClick={(e) => handleHashClick(e, 'skills')}
-            className="text-sm uppercase tracking-widest font-sans hover:text-accent transition-colors elegant-border"
-          >
-            Expertise
-          </a>
-          <a 
             href="#pricing" 
             onClick={(e) => handleHashClick(e, 'pricing')}
             className="text-sm uppercase tracking-widest font-sans hover:text-accent transition-colors elegant-border"
@@ -104,13 +97,6 @@ const Navbar = () => {
               className="text-sm uppercase tracking-widest font-sans hover:text-accent transition-colors"
             >
               About
-            </a>
-            <a 
-              href="#skills" 
-              onClick={(e) => handleHashClick(e, 'skills')}
-              className="text-sm uppercase tracking-widest font-sans hover:text-accent transition-colors"
-            >
-              Expertise
             </a>
             <a 
               href="#pricing" 

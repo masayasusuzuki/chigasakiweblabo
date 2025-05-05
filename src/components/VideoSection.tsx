@@ -4,7 +4,7 @@ import React from 'react';
 
 const VideoSection = () => {
   return (
-    <section className="pt-16 pb-8 bg-white relative overflow-hidden">
+    <section className="pt-16 pb-4 md:pb-8 bg-white relative overflow-hidden">
       {/* カラフルな背景要素 */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-amber-100 rounded-full blur-3xl -z-10 animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-40 h-40 bg-stone-200 rounded-full blur-3xl -z-10 animate-pulse"></div>

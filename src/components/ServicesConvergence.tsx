@@ -4,10 +4,10 @@ import Image from "next/image"
 
 const ServicesConvergence = () => {
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-slate-50 to-slate-100">
+    <section id="services" className="py-12 md:py-20 bg-gradient-to-b from-slate-50 to-slate-100">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-20">
-          <div className="relative inline-block mb-6">
+        <div className="text-center mb-10 md:mb-20">
+          <div className="relative inline-block mb-4 md:mb-6">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-slate-800 via-slate-600 to-slate-900 leading-tight">
               まるごと<span className="text-accent">おまかせ</span>ください
             </h2>
@@ -25,26 +25,26 @@ const ServicesConvergence = () => {
         
         <div className="max-w-5xl mx-auto w-full">
           {/* Services Section */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
-            <ServiceCard
-              title="アプリ開発"
-              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/6f103ade-5ec0-40a3-b5af-d67dae289d00/public"
-              description="業務効率化のための予約システムや顧客管理など、使いやすさと機能性を両立したWebアプリケーションをお作りします。"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 mb-16">
             <ServiceCard
               title="Webサイト制作"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/8f6ec41f-d379-4527-ea38-35cf0b4b8700/public"
-              description="集客から成約までを意識した戦略的なWebサイト制作。スマホ対応・SEO対策で御社のWeb集客を強化いたします。"
+              description="見た人が来たくなる、あなただけのホームページ。スマホ最適化で、お店の魅力がしっかり伝わります。"
+            />
+            <ServiceCard
+              title="アプリ開発"
+              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/6f103ade-5ec0-40a3-b5af-d67dae289d00/public"
+              description="予約やメンバー管理など、あなたの業務を効率化。LINEやカレンダーと連携したシステムも構築可能です。"
             />
             <ServiceCard
               title="動画制作"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/10a49037-deb3-4b88-7451-56c8269f0200/public"
-              description="商品やサービスの魅力を引き出す映像制作。SNS用短尺動画からプロモーション映像まで対応しております。"
+              description="伝わる動画で、記憶に残る第一印象を残します。店内紹介やメニュー案内など、SNSにも使える映像を。"
             />
             <ServiceCard
               title="LINE構築"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/55d01f89-0022-4a3e-adeb-86124734d600/public"
-              description="公式アカウント設計から予約システム連携まで、顧客関係強化につながるLINE活用をサポートいたします。"
+              description="クーポン配信・予約通知でリピーター獲得。LINE公式アカウントの設計・自動応答まで対応します。"
             />
           </div>
 
@@ -119,9 +119,9 @@ function ServiceCard({
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="p-6">
-        <h3 className="text-xl font-semibold text-slate-800 mb-2 text-center">{title}</h3>
-        <p className="text-slate-600 text-sm leading-relaxed text-justify hidden md:block">{description}</p>
+      <div className="p-4 md:p-6">
+        <h3 className="text-lg md:text-xl font-semibold text-slate-800 mb-2 text-center">{title}</h3>
+        <p className="text-slate-600 text-sm leading-relaxed text-justify">{description}</p>
       </div>
     </div>
   )

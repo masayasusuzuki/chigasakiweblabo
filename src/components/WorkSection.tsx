@@ -125,14 +125,14 @@ const WorkSection = () => {
   );
 
   return (
-    <section id="work" className="pt-12 pb-24 bg-white">
+    <section id="work" className="pt-4 md:pt-10 pb-8 md:pb-16 bg-white">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-16">
           <span className="uppercase text-xs tracking-[0.2em] text-accent/80">Portfolio</span>
-          <h2 className="text-3xl md:text-4xl font-light mt-3 mb-5">
+          <h2 className="text-3xl md:text-4xl font-light mt-2 md:mt-3 mb-3 md:mb-5">
             過去の制作例
           </h2>
-          <div className="h-px w-16 bg-accent/30 mx-auto mb-6"></div>
+          <div className="h-px w-16 bg-accent/30 mx-auto mb-4 md:mb-6"></div>
           <p className="text-base opacity-80 max-w-xl mx-auto font-light hidden md:block">
             Webサイト制作からアプリ開発、動画制作まで、お客様のニーズに合わせた
             さまざまな制作実績をご紹介します。
@@ -142,6 +142,9 @@ const WorkSection = () => {
         {/* モバイルの場合はSwiperを表示、PCの場合はグリッドを表示 */}
         {mounted && isMobile ? (
           <div className="mx-auto w-full relative pb-12">
+            <p className="text-center text-sm text-foreground/70 mb-4">
+              ◀︎▶︎ スライドで他の実績も見られます
+            </p>
             <Swiper
               modules={[Pagination]}
               spaceBetween={0}

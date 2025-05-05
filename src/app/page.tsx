@@ -4,7 +4,6 @@ import ServicesConvergence from '@/components/ServicesConvergence';
 import VideoSection from '@/components/VideoSection';
 import WorkSection from '@/components/WorkSection';
 import AboutSection from '@/components/AboutSection';
-import SkillsSection from '@/components/SkillsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import AnimatedSection from '@/components/AnimatedSection';
@@ -30,10 +29,6 @@ export default function Home() {
         
         <AnimatedSection delay={0.3}>
           <AboutSection />
-        </AnimatedSection>
-        
-        <AnimatedSection delay={0.2}>
-          <SkillsSection />
         </AnimatedSection>
         
         <AnimatedSection delay={0.3}>

@@ -76,7 +76,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white/60">
+    <section className="relative h-auto pt-32 pb-16 md:min-h-screen flex items-center justify-center overflow-hidden bg-white/60">
       {/* 背景画像 */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -101,11 +101,11 @@ const Hero = () => {
         <div className="w-96 h-96 absolute bottom-20 right-1/4 rounded-full bg-accent/5 blur-3xl"></div>
       </div>
       
-      <div className="container mx-auto px-6 py-24 relative z-20">
+      <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-3xl mx-auto text-center p-6 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-6 leading-tight tracking-normal">
             あなたのお店にちょうどいい<br />
-            <span className="text-accent">&ldquo;まちのWeb屋さん&rdquo;</span>です
+            <span className="text-accent font-bold">&ldquo;まちのWeb屋さん&rdquo;</span>です
           </h1>
           
           <div className="h-px w-16 bg-accent/30 mx-auto mb-6"></div>
@@ -126,15 +126,15 @@ const Hero = () => {
               href="/#contact" 
               className="px-6 py-2.5 bg-accent text-white hover:bg-accent/90 transition-all uppercase tracking-wider text-xs font-medium"
             >
-              お問い合わせ
+              無料相談してみる
             </Link>
           </div>
         </div>
       </div>
       
-      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-20">
-        <span className="block text-xs uppercase tracking-widest mb-4 opacity-70">Scroll</span>
-        <div className="w-px h-10 bg-foreground/20 animate-pulse"></div>
+      <div className="absolute bottom-6 md:bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-20">
+        <span className="block text-xs uppercase tracking-widest mb-3 md:mb-4 opacity-70">Scroll</span>
+        <div className="w-px h-8 md:h-10 bg-foreground/20 animate-pulse"></div>
       </div>
     </section>
   );
