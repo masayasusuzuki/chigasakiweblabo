@@ -7,6 +7,7 @@ import AboutSection from '@/components/AboutSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import AnimatedSection from '@/components/AnimatedSection';
+import PricingSection from '@/components/PricingSection';
 
 export default function Home() {
   return (
@@ -29,6 +30,10 @@ export default function Home() {
         
         <AnimatedSection delay={0.3}>
           <AboutSection />
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.3}>
+          <PricingSection />
         </AnimatedSection>
         
         <AnimatedSection delay={0.3}>

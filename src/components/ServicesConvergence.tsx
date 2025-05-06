@@ -32,7 +32,7 @@ const ServicesConvergence = () => {
               description="見た人が来たくなる、あなただけのホームページ。スマホ最適化で、お店の魅力がしっかり伝わります。"
             />
             <ServiceCard
-              title="アプリ開発"
+              title="システム構築"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/6f103ade-5ec0-40a3-b5af-d67dae289d00/public"
               description="予約やメンバー管理など、あなたの業務を効率化。LINEやカレンダーと連携したシステムも構築可能です。"
             />
@@ -42,7 +42,7 @@ const ServicesConvergence = () => {
               description="伝わる動画で、記憶に残る第一印象を残します。店内紹介やメニュー案内など、SNSにも使える映像を。"
             />
             <ServiceCard
-              title="LINE構築"
+              title="公式LINEの制作"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/55d01f89-0022-4a3e-adeb-86124734d600/public"
               description="クーポン配信・予約通知でリピーター獲得。LINE公式アカウントの設計・自動応答まで対応します。"
             />
