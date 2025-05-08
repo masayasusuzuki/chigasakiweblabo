@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'mincho': ['"Yu Mincho"', '游明朝', 'YuMincho', '"Hiragino Mincho ProN"', '"Hiragino Mincho Pro"', '"HGS明朝E"', 'serif'],
+      },
       colors: {
         'primary': 'var(--primary)',
         'secondary': 'var(--secondary)',

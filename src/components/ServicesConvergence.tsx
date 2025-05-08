@@ -9,42 +9,42 @@ const ServicesConvergence = () => {
         <div className="text-center mb-10 md:mb-20">
           <div className="relative inline-block mb-4 md:mb-6">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-slate-800 via-slate-600 to-slate-900 leading-tight">
-              まるごと<span className="text-accent">おまかせ</span>ください
+              まるごと<span className="text-accent">、おまかせ</span>ください
             </h2>
             
             {/* 装飾的な下線 */}
             <div className="absolute -bottom-3 left-0 w-full h-1 bg-gradient-to-r from-amber-400 via-stone-400 to-orange-300 rounded-full"></div>
           </div>
           
-          <p className="text-base opacity-80 max-w-2xl mx-auto font-light mb-8 hidden md:block">
-            Webサイト制作から動画制作、アプリ開発まで、デジタルコンテンツに関わる
-            <span className="font-medium text-accent">様々なサービスを一括して</span>
-            ご提供します。
+          <p className="text-base opacity-80 max-w-2xl mx-auto font-medium mb-8 hidden md:block">
+            ホームページ制作から、写真撮影・仕組みづくりまで。<br />
+            <span className="font-medium text-accent">お店に必要なこと、なんでもご相談</span>
+            いただけます。
           </p>
         </div>
         
         <div className="max-w-5xl mx-auto w-full">
           {/* Services Section */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mb-16">
             <ServiceCard
-              title="Webサイト制作"
+              title="ホームページ制作"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/8f6ec41f-d379-4527-ea38-35cf0b4b8700/public"
-              description="見た人が来たくなる、あなただけのホームページ。スマホ最適化で、お店の魅力がしっかり伝わります。"
+              description="見た人が「ここ、行ってみたい」と思えるように。スマホ対応はもちろん、写真の配置や導線も工夫して、お店の魅力をわかりやすく伝えます。"
             />
             <ServiceCard
-              title="システム構築"
-              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/6f103ade-5ec0-40a3-b5af-d67dae289d00/public"
-              description="予約やメンバー管理など、あなたの業務を効率化。LINEやカレンダーと連携したシステムも構築可能です。"
+              title="写真撮影・動画制作"
+              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/fadb98b1-40d7-416b-cf3a-fb99280c7700/public"
+              description="店内の雰囲気やメニューの魅力をしっかりと伝えるために、プロカメラマンが写真撮影から、必要に応じて動画まで対応します。「映える」ではなく、「伝わる」ビジュアルを。"
             />
             <ServiceCard
-              title="動画制作"
-              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/10a49037-deb3-4b88-7451-56c8269f0200/public"
-              description="伝わる動画で、記憶に残る第一印象を残します。店内紹介やメニュー案内など、SNSにも使える映像を。"
+              title="仕組みづくり"
+              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/c9b4c811-f9f6-438e-5dc8-0241e50c6e00/public"
+              description="予約、リピート、LINE連携、メニュー更新など。日々の業務がラクになるよう、「こうできたら便利だな」を一緒に仕組みにします。"
             />
             <ServiceCard
-              title="公式LINEの制作"
+              title="LINE公式の制作"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/55d01f89-0022-4a3e-adeb-86124734d600/public"
-              description="クーポン配信・予約通知でリピーター獲得。LINE公式アカウントの設計・自動応答まで対応します。"
+              description="クーポン配信・予約通知・お知らせなど、お客さまと「つながる窓口」をつくります。LINEの初期設定から、使い方のサポートまで対応します。"
             />
           </div>
 
@@ -87,7 +87,7 @@ const ServicesConvergence = () => {
                 おまかせください
               </h2>
               <div className="h-1 w-24 bg-gradient-to-r from-blue-500 via-purple-500 to-green-500 mx-auto mb-6"></div>
-              <p className="text-slate-700 text-lg font-serif leading-relaxed text-left text-justify hidden md:block">ホームページ制作、動画編集、LINE連携、予約システムなど、お店やビジネスに必要な「デジタルまわり」を、まるごと対応します。窓口が一つだから、やりとりがスムーズで、納期も無駄なく進みます。</p>
+              <p className="text-slate-700 text-lg font-serif font-medium leading-relaxed text-left text-justify hidden md:block">ホームページ制作、動画編集、LINE連携、予約システムなど、お店やビジネスに必要な「デジタルまわり」を、まるごと対応します。窓口が一つだから、やりとりがスムーズで、納期も無駄なく進みます。</p>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ function ServiceCard({
       </div>
       <div className="p-4 md:p-6">
         <h3 className="text-lg md:text-xl font-semibold text-slate-800 mb-2 text-center">{title}</h3>
-        <p className="text-slate-600 text-sm leading-relaxed text-justify">{description}</p>
+        <p className="text-slate-600 text-sm font-medium leading-relaxed text-justify">{description}</p>
       </div>
     </div>
   )

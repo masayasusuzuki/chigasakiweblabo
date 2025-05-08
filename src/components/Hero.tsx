@@ -104,27 +104,27 @@ const Hero = () => {
       <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-3xl mx-auto text-center p-6 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-6 leading-tight tracking-normal">
-            あなたのお店にちょうどいい<br />
-            <span className="text-accent font-bold">&ldquo;まちのWeb屋さん&rdquo;</span>です
+            「<span className="text-primary text-[110%] font-bold drop-shadow-sm [text-shadow:_0_0_1px_rgba(255,255,255,0.6)]">このお店、行ってみたい</span>」が<br />
+            自然と生まれるように
           </h1>
           
           <div className="h-px w-16 bg-accent/30 mx-auto mb-6"></div>
           
-          <p className="text-sm md:text-base mb-10 opacity-90 font-normal max-w-2xl mx-auto leading-relaxed">
-            美と機能性の調和を追求したデザインと、感情を揺さぶる映像制作を通して、
-            お客様のビジネスの価値を最大限に引き出します。
+          <p className="text-base md:text-lg mb-10 opacity-90 font-normal max-w-2xl mx-auto leading-relaxed">
+            茅ヶ崎に暮らす制作者が、<br />
+            お店の想いを聞きながら、じっくり仕上げていきます。
           </p>
           
-          <div className="flex flex-col sm:flex-row justify-center gap-5 mt-8">
+          <div className="flex flex-col justify-center gap-4 mt-8">
             <Link 
               href="/#work" 
-              className="px-6 py-2.5 border border-primary/30 hover:border-primary/70 hover:bg-primary/5 transition-all text-foreground uppercase tracking-wider text-xs font-medium"
+              className="px-6 py-3 bg-transparent border-2 border-gray-400 text-foreground hover:border-primary hover:bg-primary/5 transition-all uppercase tracking-wider text-base font-medium w-full max-w-xs mx-auto"
             >
-              制作実績を見る
+              これまでの制作事例
             </Link>
             <Link 
               href="/#contact" 
-              className="px-6 py-2.5 bg-accent text-white hover:bg-accent/90 transition-all uppercase tracking-wider text-xs font-medium"
+              className="px-6 py-3 bg-primary text-white hover:bg-primary/90 transition-all uppercase tracking-wider text-base font-medium w-full max-w-xs mx-auto"
             >
               無料相談してみる
             </Link>
