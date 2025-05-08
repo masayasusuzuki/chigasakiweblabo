@@ -76,7 +76,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-auto pt-32 pb-16 md:min-h-screen flex items-center justify-center overflow-hidden bg-white/60">
+    <section className="relative h-auto min-h-[110vh] md:min-h-screen pt-32 pb-24 md:pt-32 md:pb-16 flex items-center justify-center overflow-hidden bg-white/60">
       {/* 背景画像 */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -103,12 +103,20 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-4xl mx-auto text-center p-4 px-5 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
-          <h1 className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 md:mb-4 leading-snug tracking-normal">
-            実際に伺い、空気を感じて、写真を撮って<br />
-            &quot;らしさ&quot;を伝えるホームページをつくります。<br />
+          <h1 className="mb-2 md:mb-4 leading-snug tracking-normal">
+            <div className="text-base sm:text-2xl md:text-3xl lg:text-4xl font-medium">
+              <div className="mb-1 text-lg sm:text-2xl md:text-3xl lg:text-4xl">実際に伺い、</div>
+              <div className="mb-1 text-lg sm:text-2xl md:text-3xl lg:text-4xl">空気を感じて、</div>
+              <div className="mb-1 text-lg sm:text-2xl md:text-3xl lg:text-4xl">写真を撮って</div>
+              <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl">
+                &quot;らしさ&quot;を伝えるホームページをつくります。
+              </div>
+            </div>
             <br />
-            茅ヶ崎でお店を営む方のための<br />
-            地域密着型サービスです。
+            <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-medium">
+              茅ヶ崎でお店を営む方のための<br />
+              地域密着型サービスです。
+            </div>
           </h1>
           
           <div className="h-px w-16 bg-accent/30 mx-auto mb-3 md:mb-6"></div>
