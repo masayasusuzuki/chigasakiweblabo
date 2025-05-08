@@ -69,14 +69,14 @@ const Navbar = () => {
         </nav>
 
         <button
-          className="md:hidden"
+          className="md:hidden flex flex-col justify-center items-center w-10 h-10"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle menu"
         >
-          <div className="w-6 flex flex-col items-end space-y-1.5">
-            <span className={`block h-px bg-foreground transition-all duration-300 ${isMobileMenuOpen ? 'w-6 rotate-45 translate-y-2.5' : 'w-6'}`} />
-            <span className={`block h-px bg-foreground transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0 w-3' : 'opacity-100 w-4'}`} />
-            <span className={`block h-px bg-foreground transition-all duration-300 ${isMobileMenuOpen ? 'w-6 -rotate-45 -translate-y-2.5' : 'w-6'}`} />
+          <div className="w-6 flex flex-col items-center justify-center relative h-5">
+            <span className={`absolute h-0.5 bg-foreground transition-all duration-300 ${isMobileMenuOpen ? 'w-6 rotate-45 top-1/2 -translate-y-1/2' : 'w-6 top-0'}`} />
+            <span className={`absolute h-0.5 bg-foreground transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0 w-6' : 'opacity-100 w-5 top-1/2 -translate-y-1/2'}`} />
+            <span className={`absolute h-0.5 bg-foreground transition-all duration-300 ${isMobileMenuOpen ? 'w-6 -rotate-45 top-1/2 -translate-y-1/2' : 'w-6 bottom-0'}`} />
           </div>
         </button>
       </div>

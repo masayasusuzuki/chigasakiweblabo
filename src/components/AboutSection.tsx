@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-10 md:py-16 bg-gray-50">
+    <section id="about" className="py-8 md:py-16 bg-gray-50">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-10">
+        <div className="text-center mb-6 md:mb-10">
           <span className="uppercase text-xs tracking-[0.2em] text-accent/80">About</span>
           <h2 className="text-3xl md:text-4xl font-light mt-2 mb-3">
             &ldquo;茅ヶ崎のホームページ屋さん&rdquo;って？
@@ -30,8 +30,8 @@ const AboutSection = () => {
               【経歴】
             </p>
             <ul className="text-foreground/80 mb-6 leading-relaxed font-light list-disc pl-5">
-              <li>動画制作・撮影歴：<span className="font-mincho">8</span>年（企業VP・YouTube・広告など）</li>
-              <li>Web制作／システム開発：<span className="font-mincho">2</span>年（WordPress・Next.js 等）</li>
+              <li>動画制作・撮影歴：<span className="font-mincho">8</span>年（企業VP・YouTube・広告 など）</li>
+              <li>Web制作／システム開発：<span className="font-mincho">2</span>年（Next.js・Photoshop・Figma など）</li>
             </ul>
             
             <p className="text-foreground/80 mb-3 leading-relaxed font-light">
@@ -43,21 +43,21 @@ const AboutSection = () => {
             </p>
             
             <div className="border-t border-gray-200 pt-6 grid grid-cols-3 gap-4">
-              <div>
+              <div className="text-center lg:text-left">
                 <h3 className="text-3xl font-light mb-1 tracking-tighter">
                   <span className="font-mincho font-medium">50</span>
                   <span className="text-accent">&nbsp;+</span>
                 </h3>
                 <p className="text-xs uppercase tracking-wider opacity-70">制作実績</p>
               </div>
-              <div>
+              <div className="text-center lg:text-left">
                 <h3 className="text-3xl font-light mb-1 tracking-tighter">
                   <span className="font-mincho font-medium">8</span>
                   <span className="text-accent">&nbsp;+</span>
                 </h3>
                 <p className="text-xs uppercase tracking-wider opacity-70">業界経験</p>
               </div>
-              <div>
+              <div className="text-center lg:text-left">
                 <h3 className="text-3xl font-light mb-1 tracking-tighter">
                   <span className="font-mincho font-medium">97</span>
                   <span className="text-accent">&nbsp;%</span>

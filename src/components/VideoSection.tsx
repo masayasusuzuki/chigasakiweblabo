@@ -18,7 +18,7 @@ const VideoSection = () => {
         <div className="max-w-5xl mx-auto">
           {/* タイトルセクション - シンプルに */}
           <div className="text-center mb-12 opacity-0 animate-fadeIn">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium mb-5 relative inline-block">
+            <h2 className="text-xl sm:text-3xl md:text-4xl font-medium mb-5 relative inline-block">
               動画でお店の魅力を
               <span className="text-accent font-bold relative">
                 &ldquo;見える化&rdquo;

@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 py-12 border-t border-gray-100">
+    <footer className="bg-gray-50 py-8 md:py-12 border-t border-gray-100">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
           <div>
             <h3 className="text-2xl font-bold mb-4 gradient-text">CREATIVE</h3>
             <p className="opacity-70 mb-6">
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-200 mt-12 pt-8 text-center">
+        <div className="border-t border-gray-200 mt-8 md:mt-12 pt-6 md:pt-8 text-center">
           <p className="opacity-60 font-sans">
             &copy; {new Date().getFullYear()} Creative Portfolio. All rights reserved.
           </p>

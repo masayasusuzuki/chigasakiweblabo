@@ -29,7 +29,7 @@ const ServicesConvergence = () => {
             <ServiceCard
               title="ホームページ制作"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/8f6ec41f-d379-4527-ea38-35cf0b4b8700/public"
-              description="見た人が「ここ、行ってみたい」と思えるように。スマホ対応はもちろん、写真の配置や導線も工夫して、お店の魅力をわかりやすく伝えます。"
+              description="見た人に「ここ、行ってみたい」と思ってもらえるように。スマホ対応はもちろん、写真の配置や導線も工夫して、お店の魅力をわかりやすく伝えます。"
             />
             <ServiceCard
               title="写真撮影・動画制作"
@@ -37,14 +37,14 @@ const ServicesConvergence = () => {
               description="店内の雰囲気やメニューの魅力をしっかりと伝えるために、プロカメラマンが写真撮影から、必要に応じて動画まで対応します。「映える」ではなく、「伝わる」ビジュアルを。"
             />
             <ServiceCard
-              title="仕組みづくり"
+              title="業務効率化・予約システム"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/c9b4c811-f9f6-438e-5dc8-0241e50c6e00/public"
               description="予約、リピート、LINE連携、メニュー更新など。日々の業務がラクになるよう、「こうできたら便利だな」を一緒に仕組みにします。"
             />
             <ServiceCard
-              title="LINE公式の制作"
+              title="LINE公式アカウント連携"
               imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/55d01f89-0022-4a3e-adeb-86124734d600/public"
-              description="クーポン配信・予約通知・お知らせなど、お客さまと「つながる窓口」をつくります。LINEの初期設定から、使い方のサポートまで対応します。"
+              description="クーポン配信・予約通知・お知らせなど、お客さまと「つながる窓口」をつくります。LINEの初期設定から、使い方のサポート・メンテナンスまで対応します。"
             />
           </div>
 
