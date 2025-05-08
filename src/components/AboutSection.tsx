@@ -72,7 +72,7 @@ const AboutSection = () => {
               <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden flex flex-col justify-center items-center rounded-2xl">
                 <div className="relative w-[220px] h-[220px] md:w-[300px] md:h-[300px] overflow-hidden rounded-full">
                   <Image 
-                    src="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/cc5c4eba-f1e7-4a09-f993-f6ba465cf500/public" 
+                    src="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/91b61e44-682c-4df9-d1e9-f36311106d00/public" 
                     alt="茅ヶ崎のホームページ屋さん" 
                     className="w-full h-full object-cover rounded-full"
                     width={300}
