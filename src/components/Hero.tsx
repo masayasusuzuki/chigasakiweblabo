@@ -104,18 +104,20 @@ const Hero = () => {
       <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-4xl mx-auto text-center p-4 px-5 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
           <h1 className="mb-2 md:mb-4 leading-snug tracking-normal">
-            <div className="text-base sm:text-2xl md:text-3xl lg:text-4xl font-medium">
-              <div className="mb-1 text-lg sm:text-2xl md:text-3xl lg:text-4xl">実際に伺い、</div>
-              <div className="mb-1 text-lg sm:text-2xl md:text-3xl lg:text-4xl">空気を感じて、</div>
-              <div className="mb-1 text-lg sm:text-2xl md:text-3xl lg:text-4xl">写真を撮って</div>
-              <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl">
+            <div className="font-medium">
+              <div className="md:inline text-[1.46rem] sm:text-2xl md:text-3xl lg:text-4xl leading-[1.4] md:leading-normal">
+                <span className="block md:inline">実際に伺い、</span>
+                <span className="block md:inline">空気を感じて、</span>
+                <span className="block md:inline">写真を撮って</span>
+              </div>
+              <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl mt-1 md:mt-0 mb-4">
                 &quot;らしさ&quot;を伝えるホームページをつくります。
               </div>
-            </div>
-            <br />
-            <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-medium">
-              茅ヶ崎でお店を営む方のための<br />
-              地域密着型サービスです。
+              
+              <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl mt-4">
+                茅ヶ崎でお店を営む方のための<br />
+                地域密着型サービスです。
+              </div>
             </div>
           </h1>
           
@@ -138,9 +140,11 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-6 md:bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-20">
-        <span className="block text-xs uppercase tracking-widest mb-3 md:mb-4 opacity-70">Scroll</span>
-        <div className="w-px h-8 md:h-10 bg-foreground/20 animate-pulse"></div>
+      <div className="absolute bottom-16 md:bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-20">
+        <div className="flex flex-col items-center text-white">
+          <span className="block text-base md:text-lg uppercase tracking-widest mb-1 font-sans font-bold text-white">SCROLL</span>
+          <span className="text-xl text-white">▼</span>
+        </div>
       </div>
     </section>
   );
