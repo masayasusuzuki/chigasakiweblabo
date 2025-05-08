@@ -104,9 +104,11 @@ const Hero = () => {
       <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-3xl mx-auto text-center p-6 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 md:mb-4 leading-tight tracking-normal">
-            茅ヶ崎でお店を営む方のために<br />
-            実際に伺い、空気を感じて、写真を撮って、<br />
-            "らしさ"を伝えるホームページをつくります。
+            実際に伺い、空気を感じて、写真を撮って<br />
+            "らしさ"を伝えるホームページをつくります。<br />
+            <br />
+            茅ヶ崎でお店を営む方のための<br />
+            地域密着型サービスです。
           </h1>
           
           <div className="h-px w-16 bg-accent/30 mx-auto mb-3 md:mb-6"></div>
