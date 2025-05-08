@@ -17,8 +17,8 @@ export default function PricingSection2() {
     >
       <div className="container px-4 md:px-6 mx-auto relative z-10 text-center md:text-left">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-          <div className="flex flex-col justify-center space-y-8 mx-auto md:mx-0">
-            <div className="space-y-6">
+          <div className="flex flex-col justify-center space-y-6 md:space-y-8 mx-auto md:mx-0">
+            <div className="space-y-4 md:space-y-6">
               <h1 className="text-3xl font-bold tracking-tighter leading-tight">
                 <div className="flex flex-col md:flex-row md:items-baseline mb-3 justify-center md:justify-start space-y-4 md:space-y-0">
                   <span className="text-5xl text-red-600 md:text-6xl md:text-black inline-block md:mr-2">
@@ -85,9 +85,9 @@ export default function PricingSection2() {
               </div>
             </div>
 
-            <div className="space-y-0">
+            <div className="space-y-0 md:space-y-4">
               <p className="text-xs md:text-xl text-gray-700 whitespace-nowrap overflow-hidden text-ellipsis">月額9,800円～の定額制で、写真や文章の相談まで一緒に。</p>
-              <p className="text-xs md:text-xl text-gray-700 whitespace-nowrap overflow-hidden text-ellipsis mt-0 md:mt-4">
+              <p className="text-xs md:text-xl text-gray-700 whitespace-nowrap overflow-hidden text-ellipsis mt-2 md:mt-0">
                 必要な機能だけ、少しずつ加えていける柔軟な仕組みにしています。
               </p>
             </div>

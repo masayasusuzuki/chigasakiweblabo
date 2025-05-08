@@ -43,21 +43,21 @@ const AboutSection = () => {
             </p>
             
             <div className="border-t border-gray-200 pt-6 grid grid-cols-3 gap-4">
-              <div className="text-center lg:text-left">
+              <div className="text-center">
                 <h3 className="text-3xl font-light mb-1 tracking-tighter">
                   <span className="font-mincho font-medium">50</span>
                   <span className="text-accent">&nbsp;+</span>
                 </h3>
                 <p className="text-xs uppercase tracking-wider opacity-70">制作実績</p>
               </div>
-              <div className="text-center lg:text-left">
+              <div className="text-center">
                 <h3 className="text-3xl font-light mb-1 tracking-tighter">
                   <span className="font-mincho font-medium">8</span>
                   <span className="text-accent">&nbsp;+</span>
                 </h3>
                 <p className="text-xs uppercase tracking-wider opacity-70">業界経験</p>
               </div>
-              <div className="text-center lg:text-left">
+              <div className="text-center">
                 <h3 className="text-3xl font-light mb-1 tracking-tighter">
                   <span className="font-mincho font-medium">97</span>
                   <span className="text-accent">&nbsp;%</span>
