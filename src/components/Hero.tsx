@@ -103,7 +103,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-4xl mx-auto text-center p-6 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
-          <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 md:mb-4 leading-tight tracking-normal">
+          <h1 className="text-base sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 md:mb-4 leading-tight tracking-normal">
             実際に伺い、空気を感じて、写真を撮って<br />
             "らしさ"を伝えるホームページをつくります。<br />
             <br />
