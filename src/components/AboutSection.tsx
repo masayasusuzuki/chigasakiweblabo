@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-8 md:py-16 bg-gray-50">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-6 md:mb-10">
+        <div className="text-center mb-3 md:mb-10">
           <span className="uppercase text-xs tracking-[0.2em] text-accent/80">About</span>
           <h2 className="text-3xl md:text-4xl font-light mt-2 mb-3">
             &ldquo;茅ヶ崎のホームページ屋さん&rdquo;って？
@@ -69,8 +69,8 @@ const AboutSection = () => {
           
           <div className="order-1 lg:order-2 relative">
             <div className="relative overflow-hidden">
-              <div className="relative h-[400px] w-full overflow-hidden flex flex-col justify-center items-center rounded-2xl">
-                <div className="relative w-[300px] h-[300px] overflow-hidden rounded-full">
+              <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden flex flex-col justify-center items-center rounded-2xl">
+                <div className="relative w-[220px] h-[220px] md:w-[300px] md:h-[300px] overflow-hidden rounded-full">
                   <Image 
                     src="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/cc5c4eba-f1e7-4a09-f993-f6ba465cf500/public" 
                     alt="茅ヶ崎のホームページ屋さん" 
@@ -79,7 +79,7 @@ const AboutSection = () => {
                     height={300}
                   />
                 </div>
-                <h3 className="text-xl md:text-2xl font-light mt-4">
+                <h3 className="text-xl md:text-2xl font-light mt-2 md:mt-4">
                   代表：<span className="font-sans">Masayasu Suzuki</span>
                 </h3>
               </div>
