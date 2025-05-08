@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Mail, Calculator } from "lucide-react"
+import { Calculator } from "lucide-react"
 import Link from "next/link"
 
 export default function PricingSection2() {

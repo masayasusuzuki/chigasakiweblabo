@@ -1,7 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
-
 const PricingSection = () => {
   return (
     <section id="pricing" className="py-12 md:py-20 bg-gray-50 font-sans">
@@ -192,7 +190,7 @@ const PricingSection = () => {
           <div className="border-2 md:border border-gray-200">
             <div className="bg-teal-500 py-6 text-center">
               <h3 className="text-2xl font-bold text-white">プレミアムコース</h3>
-              <p className="text-sm mt-2 text-white">写真・動画に加えて、LINEや予約機能なども対応可能。<br />仕組みから整える"本気の一歩"をサポートします。</p>
+              <p className="text-sm mt-2 text-white">写真・動画に加えて、LINEや予約機能なども対応可能。<br />仕組みから整える&ldquo;本気の一歩&rdquo;をサポートします。</p>
             </div>
 
             <div className="bg-teal-100 py-2 px-4 text-center">
