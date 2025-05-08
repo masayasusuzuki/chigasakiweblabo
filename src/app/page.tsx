@@ -8,6 +8,7 @@ import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import AnimatedSection from '@/components/AnimatedSection';
 import PricingSection from '@/components/PricingSection';
+import PricingSection2 from '@/components/PricingSection2';
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        
+        <AnimatedSection delay={0.2}>
+          <PricingSection2 />
+        </AnimatedSection>
         
         <AnimatedSection delay={0.2}>
           <ServicesConvergence />
