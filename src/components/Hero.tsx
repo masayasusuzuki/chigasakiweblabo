@@ -103,18 +103,18 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-4xl mx-auto text-center p-4 px-5 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
-          <h1 className="mb-2 md:mb-4 leading-snug tracking-normal">
+          <h1 className="mb-2 md:mb-4 leading-snug tracking-normal font-rounded">
             <div className="font-medium">
-              <div className="md:inline text-[1.46rem] sm:text-2xl md:text-3xl lg:text-4xl leading-[1.4] md:leading-normal">
-                <span className="block md:inline">実際に伺い、</span>
-                <span className="block md:inline">空気を感じて、</span>
-                <span className="block md:inline">写真を撮って</span>
+              <div className="text-[1.2rem] sm:text-xl md:text-2xl lg:text-3xl leading-[1.4] md:leading-normal font-rounded">
+                <span className="block md:inline-block font-rounded">実際に伺い、</span>
+                <span className="block md:inline-block font-rounded">空気を感じて、</span>
+                <span className="block md:inline-block font-rounded">写真を撮って</span>
               </div>
-              <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl mt-1 md:mt-0 mb-4">
+              <div className="text-xs sm:text-xl md:text-2xl lg:text-3xl mt-1 md:mt-0 mb-4 font-rounded">
                 &quot;らしさ&quot;を伝えるホームページをつくります。
               </div>
               
-              <div className="text-sm sm:text-2xl md:text-3xl lg:text-4xl mt-4">
+              <div className="text-xs sm:text-xl md:text-2xl lg:text-3xl mt-4 font-rounded">
                 茅ヶ崎でお店を営む方のための<br />
                 地域密着型サービスです。
               </div>

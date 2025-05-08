@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'mincho': ['"Yu Mincho"', '游明朝', 'YuMincho', '"Hiragino Mincho ProN"', '"Hiragino Mincho Pro"', '"HGS明朝E"', 'serif'],
+        'rounded': ['Meiryo', '"Hiragino Maru Gothic Pro"', '"Rounded Mplus 1c"', '"M PLUS Rounded 1c"', '"Hiragino Sans"', 'sans-serif'],
       },
       colors: {
         'primary': 'var(--primary)',
