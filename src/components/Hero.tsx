@@ -104,17 +104,12 @@ const Hero = () => {
       <div className="container mx-auto px-6 py-10 md:py-16 relative z-20">
         <div className="max-w-3xl mx-auto text-center p-6 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 md:mb-4 leading-tight tracking-normal">
-            <span className="block text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-              「<span className="text-primary text-[110%] font-bold drop-shadow-sm [text-shadow:_0_0_1px_rgba(255,255,255,0.6)]">このお店、行ってみたい</span>」が
-            </span>
-            <span className="block mt-1 md:mt-2">自然と生まれるように</span>
+            茅ヶ崎でお店を営む方のために<br />
+            実際に伺い、空気を感じて、写真を撮って、<br />
+            "らしさ"を伝えるホームページをつくります。
           </h1>
           
           <div className="h-px w-16 bg-accent/30 mx-auto mb-3 md:mb-6"></div>
-          
-          <p className="text-base md:text-lg mb-8 md:mb-10 opacity-90 font-normal max-w-2xl mx-auto leading-relaxed">
-            お店の想いを聞きながら、じっくり仕上げていきます。
-          </p>
           
           <div className="flex flex-col justify-center gap-4 mt-6 md:mt-8">
             <Link 
