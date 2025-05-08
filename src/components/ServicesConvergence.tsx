@@ -33,7 +33,7 @@ const ServicesConvergence = () => {
             />
             <ServiceCard
               title="写真撮影・動画制作"
-              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/fadb98b1-40d7-416b-cf3a-fb99280c7700/public"
+              imageUrl="https://imagedelivery.net/NAaL_-q_p_bxlVdCND_Iag/3a864ae0-c9bd-4c12-9768-ab083321e300/public"
               description="店内の雰囲気やメニューの魅力をしっかりと伝えるために、プロカメラマンが写真撮影から、必要に応じて動画まで対応します。「映える」ではなく、「伝わる」ビジュアルを。"
             />
             <ServiceCard
