@@ -105,7 +105,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center p-4 px-5 sm:p-8 md:py-8 rounded-3xl backdrop-blur-sm bg-white/70">
           <h1 className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-2 md:mb-4 leading-snug tracking-normal">
             実際に伺い、空気を感じて、写真を撮って<br />
-            "らしさ"を伝えるホームページをつくります。<br />
+            &quot;らしさ&quot;を伝えるホームページをつくります。<br />
             <br />
             茅ヶ崎でお店を営む方のための<br />
             地域密着型サービスです。
